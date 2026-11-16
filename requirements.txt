@@ -1,0 +1,17 @@
+# Procesamiento y Manipulación de Datos 
+pandas>=2.0.0 
+numpy>=1.24.0 
+
+# Análisis Estadístico y Modelado Predictivo 
+scipy>=1.10.0 
+scikit-learn>=1.2.0 
+lightgbm>=3.3.0 
+shap>=0.41.0 
+
+# Visualización de Datos 
+matplotlib>=3.7.0 
+seaborn>=0.12.0 
+
+# Entorno de Ejecución 
+jupyter>=1.0.0 
+notebook>=6.5.0
