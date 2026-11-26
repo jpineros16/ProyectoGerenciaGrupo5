@@ -1,24 +1,21 @@
-# Estimación de Precios de Referencia para Anfitriones Pequeños de Airbnb en Bogotá 
-**Maestría en Inteligencia Analítica de Datos (MIAD) — Universidad de los Andes**
-**Proyecto:** Gerencia de Proyectos de Analítica (Entrega 4)
-**Grupo 5:** 
-* Edgar Iván Morales Rojas
-* Juan Camilo Piñeros Guzmán
-* Juan Esteban Carrero Herrera
-* Manuel Guillermo González Panesso
+Estimación de Precios de Referencia para Anfitriones Pequeños de Airbnb en Bogotá
 
---- 
+Maestría en Inteligencia Analítica de Datos (MIAD) — Universidad de los Andes
+Proyecto: Gerencia de Proyectos de Analítica
+Grupo 5:
 
-## 📌 Descripción del Proyecto
-El mercado de alquileres de corta estancia en Bogotá presenta una asimetría de información que afecta a los anfitriones independientes o pequeños (propietarios de 1 o 2 anuncios, quienes representan el **41.4% de la oferta total**). Muchos de estos anfitriones fijan sus tarifas mediante intuición o comparaciones informales, lo que resulta en pérdidas de ocupación por sobreprecio o pérdidas de ingresos por subprecio. 
+Edgar Iván Morales Rojas
+Juan Camilo Piñeros Guzmán
+Juan Esteban Carrero Herrera
+Manuel Guillermo González Panesso
+📌 Descripción del Proyecto
 
-Este proyecto desarrolla un pipeline analítico y de aprendizaje automático que audita la calidad de los datos raspados de **Inside Airbnb Bogotá**, aplica técnicas cuantitativas de limpieza e imputación, realiza análisis exploratorio (EDA) y entrena un modelo de regresión supervisada (**LightGBM**) para ofrecer tarifas de referencia competitivas. 
+El mercado de alquileres de corta estancia en Bogotá presenta una asimetría de información que afecta a los anfitriones independientes o pequeños (propietarios de 1 o 2 anuncios, quienes representan el 41.4% de la oferta total). Muchos de estos anfitriones fijan sus tarifas mediante intuición o comparaciones informales, lo que resulta en pérdidas de ocupación por sobreprecio o pérdidas de ingresos por subprecio.
 
----
+Este proyecto desarrolla el análisis previo a la construcción de una herramienta de precios de referencia para anfitriones pequeños: audita la calidad de los datos raspados de Inside Airbnb Bogotá, aplica técnicas cuantitativas de limpieza e imputación y realiza análisis exploratorio (EDA). El modelado y el prototipo web se desarrollarán en el curso de Proyecto Aplicado. En los cuadernos se usa un modelo de referencia preliminar solo para medir el efecto de las decisiones de limpieza sobre el error.
 
-## 📁 Estructura del Repositorio 
-
-```text
+📁 Estructura del Repositorio
+text
 proyecto-airbnb-bogota/
 │
 ├── README.md # Guía de instalación, estructura y ejecución
