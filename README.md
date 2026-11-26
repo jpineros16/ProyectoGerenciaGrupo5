@@ -1,7 +1,7 @@
 # Estimación de Precios de Referencia para Anfitriones Pequeños de Airbnb en Bogotá
 
 **Maestría en Inteligencia Analítica de Datos (MIAD) — Universidad de los Andes**
-**Proyecto:** Gerencia de Proyectos de Analítica (Entrega 4)
+**Proyecto:** Gerencia de Proyectos de Analítica (Anteproyecto)
 
 **Grupo 5:**
 * Edgar Iván Morales Rojas
@@ -22,7 +22,7 @@ Este proyecto desarrolla el análisis previo a la construcción de una herramien
 ## 📁 Estructura del Repositorio
 
 ```text
-proyecto-airbnb-bogota/
+ProyectoGerenciaGrupo5/
 │
 ├── README.md                # Guía de instalación, estructura y ejecución
 ├── requirements.txt         # Dependencias de Python necesarias
@@ -32,8 +32,13 @@ proyecto-airbnb-bogota/
 │   ├── listings0926.csv.gz      # Captura de evaluación (septiembre 2026 - 19.505 registros)
 │   └── neighbourhoods.geojson   # Polígonos de las 20 localidades del Distrito Capital
 │
+├── docs/
+│   ├── Carta_Proyecto_Ajustada.xlsx    # Carta proyecto ajustada (editable)
+│   ├── Carta_Proyecto_Ajustada.pdf     # Carta proyecto ajustada (para consulta)
+│   └── Guia3_RBS_AMEF_Grupo5.pdf       # RBS y AMEF con los 23 factores de riesgo
+│
 └── Scripts/
-    ├── CaracteristicasCalidadDatos.ipynb   # Calidad de los datos y exploración
+    ├── CaracteristicasCalidadDatos.ipynb   # Calidad de los datos, exploración, línea base y métrica de negocio
     └── TecnicasLimpieza.ipynb              # Técnicas de limpieza y su efecto en el error
 ```
 
@@ -48,4 +53,6 @@ proyecto-airbnb-bogota/
 
 ## 📄 Fuente de los datos y licencia
 
-Datos de [Inside Airbnb](https://insideairbnb.com/get-the-data/) (Bogotá, capturas de junio y septiembre de 2026), con licencia CC BY 4.0.
+Datos de [Inside Airbnb](https://insideairbnb.com/get-the-data/) (Bogotá), con licencia CC BY 4.0. Captura de junio: raspada el 21 y 22 de junio de 2026. Captura de septiembre: raspada el 16 de septiembre de 2026.
+
+Los archivos de `data/` son las capturas públicas tal como las entrega Inside Airbnb. Incluyen campos con datos personales de los anfitriones (nombre, descripción, fotos y enlaces), que solo se usan para medir la calidad de los datos. El cuaderno `CaracteristicasCalidadDatos.ipynb` los excluye antes de cualquier análisis, el modelo no los usa y el prototipo no los mostrará.
